@@ -20,8 +20,8 @@ class Daybrief < Formula
 
   on_intel do
     resource "nullclaw" do
-      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.3/nullclaw-macos-x86_64.bin"
-      sha256 "986d31148ea47027d52fbbbd2bcaab395e137ba5bf68d7c98e242f66858d9c67"
+      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.4/nullclaw-macos-x86_64.bin"
+      sha256 "927c5e005890618575652b74a6baef5cab76423f3b785724434d40e95cbf559f"
     end
   end
 
