@@ -14,7 +14,7 @@ class Daybrief < Formula
   on_arm do
     resource "nullclaw" do
       url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.3/nullclaw-macos-aarch64.bin"
-      sha256 "c842a8cabbe4b19eef8cf5392098966950ba807e0bc9ddd87fb6d583c22db79b"
+      sha256 "c0461ea1c1d7ac34913866a142fd907be52a91b197b493aa61fa4d934be73632"
     end
   end
 
