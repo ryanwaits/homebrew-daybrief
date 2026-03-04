@@ -4,7 +4,7 @@ class Daybrief < Formula
   desc "Daily iMessage + Twitter DM digest agent"
   homepage "https://github.com/ryanwaits/daybrief"
   url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "f4a2be4b64d20bf9b95161a37d31239985490c46bf7adc696e8d49b5a4a1366a"
   license "MIT"
 
   depends_on :macos
