@@ -3,8 +3,8 @@ class Daybrief < Formula
 
   desc "Daily iMessage + Twitter DM digest agent"
   homepage "https://github.com/ryanwaits/daybrief"
-  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "f395dfcfd2fe922485c57dde4ae0ae585c9667d53caa2eb2a14683ae2f16c134"
+  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "6615e58908a356c8a4e8abfcf2efae24ab23ebe38f79d9a15351a99b4d7d20f5"
   license "MIT"
 
   depends_on :macos
@@ -13,8 +13,8 @@ class Daybrief < Formula
   # nullclaw binary (not on PATH — abstracted behind daybrief CLI)
   on_arm do
     resource "nullclaw" do
-      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.3/nullclaw-macos-aarch64.bin"
-      sha256 "a74a9755371900fe58e64a30235409e814ad6e9a3bdd51ce229afa11462665cc"
+      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.4/nullclaw-macos-aarch64.bin"
+      sha256 "927c5e005890618575652b74a6baef5cab76423f3b785724434d40e95cbf559f"
     end
   end
 
@@ -166,6 +166,9 @@ class Daybrief < Formula
 
     # Install config template
     (etc/"daybrief").install "config/nullclaw.json.template"
+
+    # Install workspace files
+    (libexec/"workspace").install "config/workspace/INTEGRATIONS.md"
 
     # Create log directory
     (var/"log/daybrief").mkpath
