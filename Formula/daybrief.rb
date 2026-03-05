@@ -3,8 +3,8 @@ class Daybrief < Formula
 
   desc "Daily iMessage + Twitter DM digest agent"
   homepage "https://github.com/ryanwaits/daybrief"
-  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "f7f3bfd37b35b511408e6cc3216802a9c377fce329b947847e28653ba67f59bd"
+  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "2f3382901c496d1ea1ce69bdfaad9539579159ecc1476d60dd4d7ad004ffa94c"
   license "MIT"
 
   depends_on :macos
@@ -198,12 +198,9 @@ class Daybrief < Formula
 
         daybrief setup
 
-      This will configure your API key, email, Twitter credentials,
-      and Full Disk Access. Then start the gateway service:
-
-        brew services start daybrief
-
-      Your first digest will arrive tomorrow at 8am.
+      This 3-step wizard configures your API key, Full Disk Access,
+      and starts the service. Set up Slack, Twitter, and your daily
+      digest by messaging your agent via iMessage.
 
       For troubleshooting:
 
