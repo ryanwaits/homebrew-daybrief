@@ -14,14 +14,14 @@ class Daybrief < Formula
   on_arm do
     resource "nullclaw" do
       url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.5/nullclaw-macos-x86_64.bin"
-      sha256 "e142fe9d6ce7533ec326a903c4726fc9e603b0be7c8a5cddac2a381761fab3a6"
+      sha256 "7a3b6d46807692fae490de523b6cf9a9acffc71c0adde95dede1b1ec2abd8b38"
     end
   end
 
   on_intel do
     resource "nullclaw" do
       url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.5/nullclaw-macos-x86_64.bin"
-      sha256 "e142fe9d6ce7533ec326a903c4726fc9e603b0be7c8a5cddac2a381761fab3a6"
+      sha256 "7a3b6d46807692fae490de523b6cf9a9acffc71c0adde95dede1b1ec2abd8b38"
     end
   end
 
