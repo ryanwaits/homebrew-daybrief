@@ -3,8 +3,8 @@ class Daybrief < Formula
 
   desc "Daily iMessage + Twitter DM digest agent"
   homepage "https://github.com/ryanwaits/daybrief"
-  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "3ca1993d5780345132dfd4e5096a749b471c261b85ee7a0001c23b1655c430a5"
+  url "https://github.com/ryanwaits/daybrief/archive/refs/tags/v0.2.3.tar.gz"
+  sha256 "a039f7d801391caebf744c449cfaa39a8b8f975a9fddd0af2406ca120e84728c"
   license "MIT"
 
   depends_on :macos
@@ -13,15 +13,15 @@ class Daybrief < Formula
   # nullclaw binary (not on PATH — abstracted behind daybrief CLI)
   on_arm do
     resource "nullclaw" do
-      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.4/nullclaw-macos-aarch64.bin"
-      sha256 "3ca1993d5780345132dfd4e5096a749b471c261b85ee7a0001c23b1655c430a5"
+      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.5/nullclaw-macos-x86_64.bin"
+      sha256 "e142fe9d6ce7533ec326a903c4726fc9e603b0be7c8a5cddac2a381761fab3a6"
     end
   end
 
   on_intel do
     resource "nullclaw" do
-      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.4/nullclaw-macos-x86_64.bin"
-      sha256 "3ca1993d5780345132dfd4e5096a749b471c261b85ee7a0001c23b1655c430a5"
+      url "https://github.com/ryanwaits/nullclaw/releases/download/v2026.3.5/nullclaw-macos-x86_64.bin"
+      sha256 "e142fe9d6ce7533ec326a903c4726fc9e603b0be7c8a5cddac2a381761fab3a6"
     end
   end
 
